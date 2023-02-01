@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+margin: 4rem auto 0.5rem;
+font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
+display: block;
+text-align: center;
+
+}
+
+main h1 {
+    display: flex;
+    vertical-align: bottom;
+    margin: 1.2rem 0;
+    font-size: 3.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 .titulo1 {
+    background-image: linear-gradient(transparent, transparent), url(	https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
+    background-repeat: none;
+    background-position: 0 -254px;
+    width: 176px;
+    height: 32px;
+    font-weight: 400;
+}
+main h1 .titulo2 {
+    font-family: Linux Libertine,Georgia,Times,serif;
+    font-size:15px;
+    font-weight: 400;
+}
